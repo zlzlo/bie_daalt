@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Bie Daalt',
       theme: ThemeData(
-        textTheme: Typography.blackCupertino,
+        colorSchemeSeed: Colors.blueAccent,
         useMaterial3: true,
       ),
       home: const SplashScreen(),
